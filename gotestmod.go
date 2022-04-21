@@ -19,6 +19,5 @@ func Hi(name, lang string) (string, error) {
    default:
       return "", errors.New("unknown language")
    }
-   return fmt.Sprintf("Hi, %s!", name)
 }
 
